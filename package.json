@@ -1,0 +1,28 @@
+{
+  "name": "node.js",
+  "version": "1.0.0",
+  "description": "Learn Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "serve": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/po4tovuj/Node.JS.git"
+  },
+  "author": "Miniailo Serhii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/po4tovuj/Node.JS/issues"
+  },
+  "homepage": "https://github.com/po4tovuj/Node.JS#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "commander": "^10.0.0",
+    "uuid": "^9.0.0"
+  }
+}
